@@ -1,0 +1,20 @@
+.widget-wrapper {
+    width: 100%;
+    overflow-x: scroll;
+    white-space: nowrap;
+    padding-left: 10px;
+    scroll-behavior: smooth;
+    padding-bottom: 10px;
+    /* background-color: #eee; */
+}
+
+.widget {
+    width: 200px;
+    height: 250px;
+    background-color: #fff;
+    margin-right: 10px;
+    border-radius: 8px;
+    vertical-align: top;
+    display: inline-block;
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+}
