@@ -60,7 +60,6 @@ class Home extends Component {
             <Fragment>
                 <Header title={ this.state.dataModal.name } />
                 <div>
-                    <Carousel data={ data } />
                     <Grid data={ this.state.dataModal.rails && this.state.dataModal.rails[0] } />
                 </div>
             </Fragment>
