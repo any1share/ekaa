@@ -40,7 +40,7 @@ class Home extends Component {
     }
 
     fetchData() {
-        fetch('http://api.any1share.com/layout/page/1', {
+        fetch('https://prod.sajha.co.in/layout/page/1', {
             headers: {
                 'Content-Type': 'application/json',
                 'Authorization': "Basic bWlndWVsOnB5dGhvbg=="
