@@ -2,29 +2,8 @@ import React, { Component, Fragment } from 'react';
 
 import Header from '../components/header/Header';
 
-import Carousel from '../components/carousel/Carousel';
 import Grid from '../components/grid/Grid';
 
-const data = {
-    title: 'fxg',
-    images: [
-        {
-            id: 1,
-            url: 'https://www.w3schools.com/howto/img_nature_wide.jpg',
-            name: 'abc1',
-        },
-        {
-            id: 2,
-            url: 'https://www.w3schools.com/howto/img_snow_wide.jpg',
-            name: 'abc2'
-        },
-        {
-            id: 3,
-            url: 'https://www.w3schools.com/howto/img_mountains_wide.jpg',
-            name: 'abc3'
-        }
-    ]
-}
 
 class Home extends Component {
 
