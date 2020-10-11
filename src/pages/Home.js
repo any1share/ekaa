@@ -2,7 +2,7 @@ import React, { Component, Fragment } from 'react';
 
 import Header from '../components/header/Header';
 
-import Grid from '../components/grid/Grid';
+import Card from "../components/card/Card";
 
 
 class Home extends Component {
@@ -39,7 +39,7 @@ class Home extends Component {
             <Fragment>
                 <Header title={ this.state.dataModal.name } />
                 <div>
-                    <Grid data={ this.state.dataModal.rails && this.state.dataModal.rails[0] } />
+                    <Card data={ this.state.dataModal } />
                 </div>
             </Fragment>
         );
